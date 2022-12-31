@@ -1,0 +1,130 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+html,body{
+	height: 100%;
+}
+.clear{
+	clear: both;
+}
+.container{
+	height: 100%;
+	float: left;
+	background-color: #603185;
+	width: 260px;
+}
+.lateral img{
+	width: 200px;
+	margin-top: 70%;
+	margin-left:  10%;
+	border: 5px solid #7845a1;
+	border-radius: 50%;
+}
+.menu{
+	float: left;
+	position: absolute;
+	display: inline-block;
+}
+.menu li{
+	margin: 30px;
+	margin-left: 20px;
+	list-style: none;
+	text-align: center;
+}
+.menu a{
+	text-decoration: none;
+	font-size: 21px;
+	color: white;
+}
+.menu a:hover{
+	text-decoration: underline;
+	color: black;
+}
+.container2{
+	position: relative;
+	float: left;
+	max-width: 750px;
+}
+.box-info{
+	width: 100%;
+	max-width: 700px;
+	margin-top:35%;
+	margin-left: 10%;
+}
+.info h1{
+	margin-bottom: 25px;
+}
+.info > p{
+	margin-bottom: 10px;
+	
+}
+.info2 > .objetivo{
+	margin: 40px 0;
+	font-size: 23px;
+}
+
+span{
+	font-size: 23px;
+	font-weight: bold;
+}
+
+.social-media > a{
+	font-size: 23px;
+	padding: 10px;
+	color: #603185;
+}
+
+/* Página Experiência*/
+
+.container3{
+	position: relative;
+	float: left;
+	max-width: 900px;
+}
+.box-exp{
+	width: 100%;
+	max-width: 650px;
+	margin-top:20%;
+	margin-left: 5%;
+}
+.box-ul{
+	margin-left: 2%;
+	margin-top: 50px;
+}
+.exp-li{
+	margin: 10px;
+	font-weight: bold;
+}
+.box-ul > .ativ{
+	margin-top: 5px;
+	margin-bottom: 30px;
+}
+.container4{
+	position: relative;
+	float: left;
+	max-width: 900px;
+}
+.box-educa{
+	width: 100%;
+	max-width: 700px;
+	margin-top:30%;
+	margin-left: 5%;
+}
+.info-li{
+	margin: 10px;
+	
+}
+.container5{
+	position: relative;
+	float: left;
+	max-width: 900px;
+}
+.box-curso{
+	width: 100%;
+	max-width: 700px;
+	margin-top:30%;
+	margin-left: 5%;
+}
